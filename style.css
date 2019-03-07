@@ -1,0 +1,113 @@
+title {
+    font-size: 0px;
+}
+
+* {
+    font-family: "Avenir Next",
+    sans-serif; 
+    color: #8C8C8C;
+    font-weight: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body, .navbar {
+  width: 90%;
+}
+
+ @media only screen and (max-width: 480px) {
+.btn-group {
+    display: flex;
+    flex-direction: column;
+  } 
+}
+
+ @media only screen and (min-width: 680px) {
+  .btn-group {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+button {
+    background-color: #D8D8D8; 
+    border-radius: 5px; 
+    height: 60px;
+    width: 170px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    line-height: 1;
+}
+
+button:hover {
+  background-color: #4d4d4d;
+}
+
+h1 {
+  font-size: 35px;  
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#LeafImage {
+  height: 300px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.6;
+} 
+
+ul {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+    margin-bottom: 50px;   
+  }
+
+#email, #github, #indeed, #linkedin {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#HardDaysImage {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 680px) {
+  #HardDaysImage {
+     height: 400px;
+  }
+}  
+
+  h2 {
+    font-size: 25px; 
+  }
+ 
+ .link {
+   font-weight: normal;
+   text-decoration: none;
+ }
+
+ .link:hover {
+   color: black; 
+ }
